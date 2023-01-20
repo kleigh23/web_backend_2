@@ -1,10 +1,20 @@
+### Get all local
 Get http://localhost:3000/contacts
-###
+### Get one local
 Get http://localhost:3000/contacts/63c1d7a7f2ec7fa6da1b222a
-###
+### Get one local
 GET http://localhost:3000/contacts/63c1d89cf2ec7fa6da1b222b
-###
+### Get one local
 GET http://localhost:3000/contacts/63c1d90bf2ec7fa6da1b222c
+
+### Get all Render
+GET https://web-backend-2.onrender.com/contacts
+### Get one Render
+GET https://web-backend-2.onrender.com/contacts/63c1d7a7f2ec7fa6da1b222a
+### Get one Render
+GET https://web-backend-2.onrender.com/contacts/63c1d89cf2ec7fa6da1b222b
+### Get one Render
+GET https://web-backend-2.onrender.com/contacts/63c1d90bf2ec7fa6da1b222c
 
 
 ### Create Contact
@@ -34,7 +44,7 @@ Content-Type: application/json
 DELETE http://localhost:3000/contacts/63c9b32fdfe46e8cf3456527
 
 
-### Create Contact
+### Create Contact Render
 POST https://web-backend-2.onrender.com/contacts HTTP/1.1
 Content-Type: application/json
 
@@ -45,7 +55,7 @@ Content-Type: application/json
     "favoriteColor":"Purple",
     "birthday":"01/19/2013"
 }
-### Update Contact
+### Update Contact Render
 PUT https://web-backend-2.onrender.com/contacts/63c1d89cf2ec7fa6da1b222b HTTP/1.1
 Content-Type: application/json
 
@@ -57,5 +67,5 @@ Content-Type: application/json
   "favoriteColor": "Purple",
   "birthday": "2000-02-04T07:00:00.000Z"
 }
-### Delete Contact
+### Delete Contact Render
 DELETE https://web-backend-2.onrender.com/contacts/63c9b81362a34067a56f88b9
