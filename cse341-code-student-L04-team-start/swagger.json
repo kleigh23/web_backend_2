@@ -1,0 +1,67 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "title": "My API",
+      "description": "Description",
+      "version": "1.0.0"
+    },
+    "host": "localhost:8080",
+    "basePath": "/",
+    "schemes": [
+      "http"
+    ],
+    "paths": {
+      "/temples/": {
+        "get": {
+          "description": "",
+          "parameters": [],
+          "responses": {}
+        },
+        "post": {
+          "description": "",
+          "parameters": [],
+          "responses": {}
+        }
+      },
+      "/temples/{temple_id}": {
+        "get": {
+          "description": "",
+          "parameters": [
+            {
+              "name": "temple_id",
+              "in": "path",
+              "required": true,
+              "type": "string"
+            }
+          ],
+          "responses": {}
+        }
+      },
+      "/": {
+        "get": {
+          "description": "",
+          "parameters": [],
+          "responses": {}
+        },
+        "post": {
+          "description": "",
+          "parameters": [],
+          "responses": {}
+        }
+      },
+      "/{temple_id}": {
+        "get": {
+          "description": "",
+          "parameters": [
+            {
+              "name": "temple_id",
+              "in": "path",
+              "required": true,
+              "type": "string"
+            }
+          ],
+          "responses": {}
+        }
+      }
+    }
+  }

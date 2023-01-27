@@ -64,8 +64,8 @@ Content-Type: application/json
   "firstName": "Nathan",
   "lastName": "Tanner",
   "email": "nathan.tanner@email.com",
-  "favoriteColor": "Purple",
+  "favoriteColor": "Black",
   "birthday": "2000-02-04T07:00:00.000Z"
 }
 ### Delete Contact Render
-DELETE https://web-backend-2.onrender.com/contacts/63cae67952d412df5e5da2d4
+DELETE https://web-backend-2.onrender.com/contacts/63cae80cb43129ce4cdf1258
