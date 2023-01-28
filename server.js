@@ -13,7 +13,7 @@ app
     res.setHeader('Access-Control-Allow-Origin', '*');
     next();
   })
-  // .use('/', require('./routes'))
+  .use('/', require('./routes'))
   .use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 const port = process.env.PORT || 3000;
